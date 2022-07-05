@@ -1,0 +1,163 @@
+
+
+// .step-1 {
+//     display: none;
+// }
+.already {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    float: right;
+}
+
+.already-text {
+    color: $button-form;
+    text-decoration: none;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    width: inherit;
+    margin-left: 370px;
+}
+
+.form-container-child {
+ width: 376px;
+ height: 414px;
+ padding: 0px; 
+                                                                                                                                                                                                              ;    
+}
+
+.form-container-input {
+  width: 376px;
+  height: 44px;
+  background-color: $form-input;
+  border: none;
+  border-width: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.form-container-dropdown-input {
+    width: 100px;
+    height: 44px;
+    background-color: $form-input;
+    border: none;
+    border-width: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+    padding-left: 10px;
+    margin-right: 3px;
+}
+
+.form-container-phone-input {
+    width: 245px;
+    margin-right: 0;
+    padding-right: 0;
+    height: 44px;
+    font-size: 14px;
+    background-color: $form-input;
+    border: none;
+    border-width: 0;   
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: right;
+    padding-left: 10px;
+      
+}
+
+.form-container-button {
+    width: 100%;
+    height: 44px;
+    background-color: $button-form;
+    border: none;
+    margin-left: 0;
+    outline: none;
+    outline-width: 0;
+    outline-color: white;
+    font-size: 16px;
+    color: white;
+    cursor: grab;
+    transition: all;
+
+}
+  .form-container-button-div {
+    width: 376px;
+    background-color: $button-form;
+    margin-left: 0;
+    //border-width: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+
+  
+  
+input {
+    outline: none;
+    outline-width: 0;
+    outline-color: white;
+  
+}
+
+::placeholder {
+ position: absolute;
+ top: 1px;
+
+}
+
+.form-heading {
+    font-size: 28px;
+    color: $form-heading-color;
+    font-family: 'BRFirma-SemiBold';
+    font-weight: lighter;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.form-text1 {
+    font-size: 16px;
+    color: #8397AB;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 2px;
+    margin: 2px;
+    color: #8397AB;
+}
+
+.radio-div {
+    padding: 5px;
+    border: 0.5px solid $button-form;
+    margin: 5px 
+}
+
+.no-radio-div {
+    display: none;
+    
+}
+
+input[type='radio'] {
+    accent-color: $button-form;
+    margin: 10px;
+    
+}
+
+// .div input[type='radio']:checked  {
+//     padding: 5px;
+//     border: 0.5px solid $button-form;
+//     margin: 5px
+// }

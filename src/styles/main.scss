@@ -1,0 +1,178 @@
+.container {
+    margin-left: 340px;
+  //  background-color: #F4F8FB;
+}
+
+.section-1 {
+    position: relative;
+    height: 80px;
+    width: 960px;
+}
+
+.section-2  {
+    position: relative;    
+    height: 47px;
+    width: 960px;
+    margin-bottom: 20px;
+}
+.section-3 {
+    position: relative;
+    width: 960px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-4 {
+    position: relative;
+    width: 960px;
+    height: 376px;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.section-5 {
+    position: relative;
+    padding: 0;
+    width: 940px;
+    height: 367px;
+    margin-top: 20px;  
+}
+
+.main-container {
+    background-color: #F4F8FB;
+    width: 1440px;
+    height: 1100px;
+
+}
+
+.heading {
+    position: absolute;
+    left: 20px;
+    font-size: 21px;
+    font-family: "BRFirma";
+    color: #8397AB;
+    padding-bottom: 20px;
+}
+.dp-imgs {
+    position: absolute;
+    right: 20px;
+}
+
+.dp-imgs img {
+    padding: 20px;
+}
+
+.sub-headings {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+   // color: #8397AB;
+    
+}
+
+.sub-headings h2 {
+    display: inline-block;
+    font-family: 'BRFirma';
+    margin: 0;
+    padding-top: 0;
+}
+
+.sub-headings p {
+    color: #8397AB;
+    padding: 0;
+    margin-top: 0;
+}
+
+.sub-headings p span {
+    color: $button-form;
+}
+
+.section-2-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.section-2-button button {
+    background-color: $button-form;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 171px;
+    outline: none;
+    border: none;
+    outline-width: 0;
+}
+
+.current-account-item {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    width: 438px;
+    margin-right: 10px;
+    height: 170px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.savings-account-item {
+    position: absolute;
+    top: 20px;
+    padding: 5px;
+    right: 20px;
+    width: 438px;
+    height: 170px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.june-item {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    padding: 5px;
+    width: 470px;
+    margin-right: 10px;
+    height: 376px;
+    border-radius: 6px;
+    background-color: white; 
+}
+
+.cashflow-item {
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+    right: 20px;
+    width: 400px;
+    height: 376px;
+    border-radius: 6px;
+
+}
+// .transaction {
+//     position: absolute;
+//     top: 40px;
+//     left: 20px;
+//     padding: 5px;
+//     padding-right: 50px;
+//     width: 100px;
+//     margin-right: 10px;
+//     height: 367px;
+//     border-radius: 6px;
+//     background-color: white; 
+  
+// }
+
+.transaction img {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 940px;
+    margin-right: 10px;
+    height: 367px;
+    border-radius: 6px;
+    
+}

@@ -1,0 +1,52 @@
+//Responsiveness
+img {
+    max-width: 100%;
+    height: auto
+}
+
+@media screen and (max-width: 800px) {
+   
+    .sidebar-signup {
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        height: 600px;
+        padding-left: 10%;
+    }
+    .sidebar-signin {
+        width: 100%;
+        align-items: center;
+        position: absolute;
+        height: 600px;
+        padding-left: 10%;
+    }
+    .form-container {
+        margin-left: 25px;
+        margin-top: 640px;
+        margin-bottom: 200px;
+        padding: 3px;
+        width: auto;
+        
+    }
+    .already {
+        position: absolute;
+        top: 10;
+        right: 10px;
+        float: right;
+        color: white
+    }
+    
+    .already-text {
+        color: $button-form;
+        text-decoration: none;
+    }
+
+    .form-container-child {
+        width: auto;
+        height: auto;
+        padding: 4px; 
+                                                                                                                                                                                                                 ;    
+       }
+       
+    
+}

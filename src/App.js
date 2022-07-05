@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import { SignUp, SignIn } from "./pages";
+import Dashboard from "./pages/dashboard/Dashboard";
+import "./styles/style.scss"
+
+
+
+const AnimatedRoutes = () => {
+  const location = useLocation();
+  return (
+   <AnimatePresence >
+     <Routes location={location} key={location.key}>
+        <Route path="/" element={<SignUp />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </AnimatePresence>
+  )
+}
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+      <AnimatedRoutes />
+    </BrowserRouter>
+
+
   );
 }
+
+
 
 export default App;
