@@ -8,7 +8,9 @@
     url('../assets/BRFirma/BR\ Firma\ Font\ Family/BRFirma-Thin.ttf');
 }
 
-
+a:link {
+    text-decoration: none;
+}
 // sidebar
 $sidebar-primary : #7E51FF;
 $sidebar-dark-primary: #1C1335;

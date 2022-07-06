@@ -10,6 +10,13 @@
     float: right;
 }
 
+.already1 {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    float: right;
+}
+
 .already-text {
     color: $button-form;
     text-decoration: none;
@@ -84,7 +91,7 @@
     outline-color: white;
     font-size: 16px;
     color: white;
-    cursor: grab;
+    cursor: pointer;
     transition: all;
 
 }

@@ -13,7 +13,7 @@ const Form = () => {
     return (
         <div>
             <div>
-                <p className="already">Already a member? <Link to="/sign-in"><span className="already-text"> Sign in</span></Link></p>
+                <p className="already"><span id="member">Already a member? </span><Link to="/sign-in"><span className="already-text"> Sign in</span></Link></p>
             </div>
         <div className="form-container">
            
@@ -107,7 +107,7 @@ const Form = () => {
                         if(!step2) {
                             setStep2(true);
                         } else {
-                            window.location.href = "/sign-in"
+                          return  window.location.href = "/sign-in"
                         }
                        
                     }}

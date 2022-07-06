@@ -8,7 +8,7 @@ const Form = () => {
     return (
         <div>
             <div>
-                <p className="already">Don't have an account? <Link to="/"><span className="already-text"> Sign up</span></Link></p>
+                <p className="already1"><span id="member">Don't have an account?</span> <Link to="/"><span className="already-text"> Sign up</span></Link></p>
             </div>
         <div className="form-container">
            

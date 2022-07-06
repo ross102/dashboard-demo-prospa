@@ -4,6 +4,7 @@ img {
     height: auto
 }
 
+
 @media screen and (max-width: 800px) {
    
     .sidebar-signup {
@@ -22,18 +23,18 @@ img {
     }
     .form-container {
         margin-left: 25px;
-        margin-top: 640px;
+        margin-top: 690px;
         margin-bottom: 200px;
         padding: 3px;
-        width: auto;
+        width: 100%;
         
     }
-    .already {
-        position: absolute;
-        top: 10;
-        right: 10px;
-        float: right;
-        color: white
+    .already #member{
+        display: none;
+    }
+    .already1 #member{
+        display: none;
+        
     }
     
     .already-text {
@@ -42,11 +43,51 @@ img {
     }
 
     .form-container-child {
-        width: auto;
+        width: 300px;
         height: auto;
         padding: 4px; 
                                                                                                                                                                                                                  ;    
        }
+
+       .form-container-phone-input {
+        width: 180px;
+        margin-right: 0;
+        padding-right: 0;
+        height: 44px;
+        font-size: 14px;
+        background-color: $form-input;
+        border: none;
+        border-width: 0;   
+        margin-bottom: 10px;
+        margin-top: 10px;
+        float: right;
+        padding-left: 2px;
+          
+    }
+    
+
+       .form-container-input {
+        width: 300px;
+        height: 44px;
+        background-color: $form-input;
+        border: none;
+        border-width: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+        padding-left: 10px;
+      }
+      
+
+       .form-container-button-div {
+        width: 300px;
+        background-color: $button-form;
+        margin-left: 0;
+        //border-width: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+      }
        
     
 }
